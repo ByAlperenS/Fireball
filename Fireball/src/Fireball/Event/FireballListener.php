@@ -67,9 +67,8 @@ class FireballListener implements Listener{
         if ($this->status[$p->getName()]) {
             $distance = 10;
             $x = ($to->x - $from->x) * ($distance / 2);
-            $y = ($to->y - $from->y) * ($distance / 2);
             $z = ($to->z - $from->z) * ($distance / 2);
-            $p->setMotion(new Vector3($x, 0.5, $z, $y));
+            $p->setMotion(new Vector3($x, 0.8, $z));
             $p->getLevel()->addParticle(new HugeExplodeParticle(new Vector3($p->getX(), $p->getY(), $p->getZ())));
             $p->getLevel()->addParticle(new HugeExplodeParticle(new Vector3($p->getX() +1, $p->getY(), $p->getZ())));
             $p->getLevel()->addParticle(new HugeExplodeParticle(new Vector3($p->getX() -1, $p->getY(), $p->getZ())));
