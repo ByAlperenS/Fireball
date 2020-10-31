@@ -1,3 +1,6 @@
+
+![Fireball Image](https://github.com/ByAlperenS/Fireball/blob/main/icon.png)
+
 # Fireball
 
 **Version: V1.0**
