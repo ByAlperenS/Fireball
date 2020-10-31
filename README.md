@@ -1,3 +1,3 @@
 # Fireball
 
--Version: V1.0-
+**Version: V1.0**
